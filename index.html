@@ -61,8 +61,29 @@
         <!-- Brochure sektion -->
         <section class="brochure">
             <div class="flex-container">
-                <img src="billeder/brochure.webp" alt="Brochure 1" loading="lazy" height="100%" width="auto">
-                <img src="billeder/brochure2.webp" alt="Brochure 2" loading="lazy" height="100%" width="auto">
+                <img src="billeder/brochure-1200.webp"
+  srcset="
+    billeder/brochure-400.webp 400w,
+    billeder/brochure-800.webp 800w,
+    billeder/brochure-1200.webp 1200w
+  "
+  sizes="(max-width: 600px) 400px, (max-width: 1024px) 800px, 1200px"
+  alt="Brochure 1" 
+  loading="lazy"
+  width="600" height="424"
+                    >
+                <img src="billeder/brochure2.webp"
+                    src="billeder/brochure2-1200.webp" 
+  srcset="
+    billeder/brochure-400.webp 400w,
+    billeder/brochure-800.webp 800w,
+    billeder/brochure-1200.webp 1200w
+  "
+  sizes="(max-width: 600px) 400px, (max-width: 1024px) 800px, 1200px"
+  alt="Brochure" 
+  loading="lazy"
+  width="600" height="424"
+                    >
             </div>
             <a href="pdf filer/brochure.pdf" target="_blank" rel="noopener noreferrer" class="cta-button">Se brochure</a>
         </section>
