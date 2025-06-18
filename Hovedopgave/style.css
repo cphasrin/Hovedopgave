@@ -42,6 +42,7 @@ html {
 .navbar a {
   color: #F7FAFB;
   font-weight: bold;
+  font-size: 1.2rem;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -79,7 +80,7 @@ h4 {
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .hero {
@@ -100,11 +101,8 @@ p {
   padding: 0.5rem 1rem;
   background: rgba(79, 105, 171);
   color: #F7FAFB;
-  border: none;
   border-radius: 50px;
-  cursor: pointer;
-  font-size: 1.2rem;
-  text-decoration: none;
+  font-size: 1.3rem;
   text-align: center;
   width: 150px;
 }
@@ -161,14 +159,16 @@ p {
 
 .cta-button {
   display: inline-block;
-  margin: 1rem 4rem;
+  margin: 2rem 0 4rem;
   padding: 0.5rem 1rem;
-  background: rgba(79, 105, 171, 0.5);
+  background: rgba(79, 105, 171);
   color: #F7FAFB;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
   text-align: center;
+  width: 150px;
 }
 
 
