@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 1rem 2rem;
   color: #F7FAFB;
-  background-color: #192440;
+  background: url('billeder/baggrund.png') no-repeat center/cover;
 }
 
 html {
@@ -13,7 +13,6 @@ html {
 .container {
     max-width: 12000px;
     padding: 0 1rem;
-  background-color: #192440;
 }
 
 /* Navbaren */
