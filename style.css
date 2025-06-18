@@ -15,6 +15,10 @@ html {
     padding: 0 1rem;
 }
 
+img {
+  filter: blur(2px);
+}
+
 /* Navbaren */
 
 .logo img {
