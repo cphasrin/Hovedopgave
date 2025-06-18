@@ -15,10 +15,6 @@ html {
     padding: 0 1rem;
 }
 
-img {
-  filter: blur(2px);
-}
-
 /* Navbaren */
 
 .logo img {
@@ -248,7 +244,7 @@ p {
 /* Footer */
 
 footer {
-  background: rgba(79, 105, 171, 0.5);
+  background: rgba(79, 105, 171);
   border-radius: 50px;
   color: #F7FAFB;
   padding: 1rem 2rem;
@@ -261,6 +257,7 @@ footer a {
   color: inherit;
   text-decoration: underline;
 }
+
 
 #sociale-medier h2 {
   max-width: 900px;
